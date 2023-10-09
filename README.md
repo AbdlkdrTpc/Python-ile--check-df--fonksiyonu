@@ -1,13 +1,13 @@
 # Python-ile--check-df--fonksiyonu
 # Veri biliminde bir dataframe'e hızlı bir şekilde göz atarak veri hakkında ön bilgiye sahip olmamızı sağlayan bir fonksiyon.
-
-import numpy as np
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-pd.set_option('display.width', 500)
-pd.set_option('display.max.columns', None)
-df = sns.load_dataset("titanic")
+# import:
+    import numpy as np
+    import pandas as pd
+    import seaborn as sns
+    import matplotlib.pyplot as plt
+    pd.set_option('display.width', 500)
+    pd.set_option('display.max.columns', None)
+    df = sns.load_dataset("titanic")
 
 # df.dtypes
 # df.head()
