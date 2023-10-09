@@ -9,17 +9,6 @@
     pd.set_option('display.max.columns', None)
     df = sns.load_dataset("titanic")
 
-# df.dtypes
-# df.head()
-# df.tail()
-# df.shape
-# df.info
-# df.columns
-# df.index
-# df.describe().T
-# df.isnull().values.any()
-# df.isnull().sum()
-
 # def check_df(dataframe, hd=5):
     print("######################## Shape ########################")
     print(dataframe.shape)
