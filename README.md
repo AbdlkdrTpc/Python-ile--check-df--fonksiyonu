@@ -20,7 +20,7 @@ df = sns.load_dataset("titanic")
 # df.isnull().values.any()
 # df.isnull().sum()
 
-def check_df(dataframe, hd=5):
+# def check_df(dataframe, hd=5):
     print("######################## Shape ########################")
     print(dataframe.shape)
     print("######################## Type ########################")
